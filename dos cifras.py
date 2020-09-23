@@ -1,0 +1,7 @@
+print("porfavor inserte un numero: ")
+numero1=input()
+numero=int(numero1)
+print("dime otro numero")
+numero2=input()
+numero2=int(numero2)
+print("el primer numero que me has dicho es:", numero2 ,"y el segundo numero es: ", numero)
