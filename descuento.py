@@ -1,0 +1,8 @@
+print("digame cuanto le ha costado su producto: ")
+producto=input()
+descuento=int(producto)
+print("¿y cual es el precio original de su producto?")
+original=input()
+original=int(original)
+print("le han hecho una rebaja de: ", original - descuento,"€")
+print("en porcentaje seria: ",descuento*100/original,"%")
