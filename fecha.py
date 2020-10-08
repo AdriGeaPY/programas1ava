@@ -9,7 +9,7 @@ año=input()
 año=int(año)
 if dia <= 30 and mes <= 12:
   print("esta fecha es correcta")
-if dia > 30 and mes>12:
+if dia > 30 or mes>12:
   print("esta no es una fecha valida")
-if dia < 0 and mes < 0 and año < 0:
+if dia < 0 or mes < 0 or año < 0:
   print("esta no es una fecha valida")

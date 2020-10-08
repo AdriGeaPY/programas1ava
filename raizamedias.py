@@ -11,6 +11,7 @@ numero3=int(tercer)
 print("¿cuanto vale X?")
 x=input()
 x=int(x)
+print(segundo**2)
 import math
 math.sqrt(9)
 raiz=math.sqrt
