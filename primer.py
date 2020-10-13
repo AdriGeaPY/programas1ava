@@ -4,7 +4,7 @@ mes=input()
 print("por ultimo, dime un año")
 año=input()
 año=int(año)
-if dia <= 30 and ( mes =="enero"or mes=="marzo"or mes=="abril"or mes=="mayo"or mes=="junio"or mes=="julio"or mes=="agosto"or mes=="septiembre"or mes=="octubre"or mes=="noviembre"or mes=="diciembre"):
+if dia <= 30 and (mes=="abril" or mes=="junio"or mes=="julio"or mes=="agosto"or mes=="septiembre"or mes=="octubre"or mes=="noviembre"or mes=="diciembre"):
   print("esta fecha es correcta")
 if dia > 30 and (mes != "febrero"or mes !="enero"or mes!="marzo"or mes!="abril"or mes!="mayo"or mes!="junio"or mes!="julio"or mes!="agosto"or mes!="septiembre"or mes!="octubre"or mes!="noviembre"or mes!="diciembre") : 
   print("esta no es una fecha valida")
@@ -12,3 +12,4 @@ if dia < 0 or año < 0:
   print("esta es una fecha valida")
 if dia > 28 and (mes == "febrero"):
   print("esta fecha no es valida")
+if dia > 31 and mes =="enero" or mes=="marzo" or mes=="mayo" or 
