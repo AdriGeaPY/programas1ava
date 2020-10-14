@@ -1,14 +1,13 @@
+import math
 print("Bienvenido al calculador de equaciones,")
 print("dime el primer numero: ")
 primer=input()
-numero1=int(primer)
+a=int(primer)
 print("dime el segundo numero: ")
 segundo=input()
-numero2=int(segundo)
+b=int(segundo)
 print("dime el tercer numero: ")
 tercer=input()
-numero3=int(tercer)
-import math
-math.sqrt(9)
-raiz=math.sqrt
-print(raiz)
+c=int(tercer)
+print("el resultado positivo es: " , (-(b)+math.sqrt(b**2-4*a*c))/2*a)
+print("el resultado negativo es: " , (-(b)-math.sqrt(b**2-4*a*c))/2*a)
