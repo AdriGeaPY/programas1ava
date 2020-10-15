@@ -18,3 +18,12 @@ if año <= 9999 and año >=1:
       print("la fecha es correcta")
     else: 
       print("la fecha no es correcta")
+  elif not calendar.isleap(año) and mes == 2:
+    if dia >= 1 and dia <= 28:
+      print("la fecha es correcta")
+    else:
+      print("La fecha es incorrecta")
+  else:
+    print("ESTA MAL COMO TU VIDA")
+else:
+  print("ESTA MAL GILIPOLLAS HABER IDO AL COLEGIO")
