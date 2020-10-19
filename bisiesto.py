@@ -2,9 +2,6 @@ import calendar
 dia=int(input("dime el dia: "))
 mes=int(input("dime el mes: "))
 año=int(input("dime el año: "))
-hora=int(input("dime la hora: "))
-minuto=int(input("dime el minuto: "))
-segundo=int(input("dime el segundo: "))
 if año <= 9999 and año >=1:
   if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
     if dia >=1 and dia <= 31:
@@ -30,7 +27,3 @@ if año <= 9999 and año >=1:
     print("ESTA MAL COMO TU VIDA")
 else:
   print("ESTA MAL GILIPOLLAS HABER IDO AL COLEGIO")
-if hora <= 24 and minuto < 60 and segundo < 60:
-  print("su hora con un segundo mas seria: ", hora,"h", minuto,"min", segundo+1,"seg",)
-else:
- print("la hora no es correcta")
