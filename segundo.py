@@ -38,15 +38,15 @@ if hora <= 24 and minuto < 60 and segundo < 60:
          if hora == 23:
            if dia == 30:
              print("la fecha y hora será: ",año,"año", mes+1,"mes", 1,"dia", 0,"h",0,"min",0,"seg")
-            else:
-              print("la fecha y hora será:",año,"año",mes,"mes", dia+1,"dia", 0,"h", 0,"min", 0,"seg")
+           else:
+             print("la fecha y hora será:",año,"año",mes,"mes", dia+1,"dia", 0,"h", 0,"min", 0,"seg")
          else:
-          print("la hora sera: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
-       else:
-        print("la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
-     else:
-      print("su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
-    elif mes == 1 or mes == 3 or mes == 5 or mes== 7 or mes== 8 or mes== 10 or mes == 12 
+            print("la hora sera: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
+        else:
+          print("la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
+      else:
+        print("su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
+    elif mes == 1 or mes == 3 or mes == 5 or mes== 7 or mes== 8 or mes== 10 or mes == 12: 
       if segundo == 59:
         if minuto == 59:
           if hora == 23:
@@ -56,7 +56,7 @@ if hora <= 24 and minuto < 60 and segundo < 60:
               else:
                 print("la fecha y hora será:",año,"año",mes+1,"mes", 1,"dia", 0,"h", 0,"min", 0,"seg")
             else:
-            print("la hora será: ", año,"año", mes,"mes", dia+1,"dia", 0,"h",0,"min",0,"seg")
+              print("la hora será: ", año,"año", mes,"mes", dia+1,"dia", 0,"h",0,"min",0,"seg")
           else:
             print("la hora sera: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
         else:
@@ -77,7 +77,7 @@ if hora <= 24 and minuto < 60 and segundo < 60:
           print("la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
       else:
         print("su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
- else: 
-  print("esta hora no es correcta")
+  else: 
+    print("esta hora no es correcta")
 else:
   print("la hora no es correcta")
