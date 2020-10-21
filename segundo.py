@@ -56,13 +56,13 @@ if hora <= 24 and minuto < 60 and segundo < 60:
               else:
                 print("la fecha y hora será:",año,"año",mes+1,"mes", 1,"dia", 0,"h", 0,"min", 0,"seg")
             else:
-              print("la hora será: ", año,"año", mes,"mes", dia+1,"dia", 0,"h",0,"min",0,"seg")
+              print("la fecha y hora será: ", año,"año", mes,"mes", dia+1,"dia", 0,"h",0,"min",0,"seg")
           else:
-            print("la hora sera: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
+            print("la fecha y hora será: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
         else:
-          print("la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
+          print("la fecha y hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
       else:
-        print("su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
+        print("la fecha y su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
     else:
       if segundo == 59:
         if minuto == 59:
@@ -70,13 +70,13 @@ if hora <= 24 and minuto < 60 and segundo < 60:
             if calendar.isleap(año) and dia == 29:
               print("la fecha y hora será:",año,"año",mes+1,"mes", 1,"dia", 0,"h", 0,"min", 0,"seg")
             elif dia == 28:
-              print("la hora será: ", año,"año", mes+1,"mes", 1,"dia", 0,"h",0,"min",0,"seg")
+              print("la fecha y la hora será: ", año,"año", mes+1,"mes", 1,"dia", 0,"h",0,"min",0,"seg")
           else:
-            print("la hora sera: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
+            print("la fecha y la hora será: ",año,"año", mes,"mes", dia,"dia",hora+1,"h", 0,"min", 0,"seg")
         else:
-          print("la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
+          print("la fecha y la hora será: ",año,"año", mes,"mes", dia,"dia", hora,"h", minuto+1,"min",0,"seg")
       else:
-        print("su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
+        print("la fecha y su hora con un segundo mas seria: ",año,"año", mes,"mes", dia,"dia",hora,"h", minuto,"min", segundo+1,"seg",)
   else: 
     print("esta hora no es correcta")
 else:

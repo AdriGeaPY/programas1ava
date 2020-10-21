@@ -1,13 +1,20 @@
-print("tienes que escoger una de las siguientes tres opciones:")
-print(" a) hoy hace un dia soleado")
-print(" b) hoy hace un dia nublado")
-print(" c) hoy llueve")
-r=(input("¿que letra has escogido?: "))
+print("convertidor entre medidas: ")
+print("a) km a Millas nauticas")
+print("b) km a Millas terrestres")
+print("c) millas nauticas a km")
+print("d) millas terrestres a km")
+r=(input("¿Que te gustaria realizar?"))
 if r == "a":
-  print("has escogido que hoy hace un dia soleado")
+  a=float(input("¿cuantos kilometros tienes?"))
+  print("el resultado es: ", a*0.54, "millas nauticas")
 elif r == "b":
-  print("has escogido hoy hace un dia nublado")
+  b=float(input("¿cuantos kilometros tienes?: "))
+  print("el resultado es: ", b*0.6214,"millas terrestres")
 elif r == "c":
-  print("has escogido que hoy llueve")
+  c=float(input("¿cuantas millas nauticas tienes?: "))
+  print("el resultado es: ", c*1.852, "kilometros" )
+elif r == "d":
+  d=float(input("¿cuantas millas terrestres tienes?: "))
+  print("el resultado es: ", d*1.609344, "millas terrestres")
 else:
-  print("esto no esta en las opciones")
+  print("estos datos no son compatibles")
