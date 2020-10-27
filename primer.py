@@ -1,20 +1,21 @@
-print("convertidor entre medidas: ")
-print("a) km a Millas nauticas")
-print("b) km a Millas terrestres")
-print("c) millas nauticas a km")
-print("d) millas terrestres a km")
-r=(input("¿Que te gustaria realizar?"))
-if r == "a":
-  a=float(input("¿cuantos kilometros tienes?"))
-  print("el resultado es: ", a*0.54, "millas nauticas")
-elif r == "b":
-  b=float(input("¿cuantos kilometros tienes?: "))
-  print("el resultado es: ", b*0.6214,"millas terrestres")
-elif r == "c":
-  c=float(input("¿cuantas millas nauticas tienes?: "))
-  print("el resultado es: ", c*1.852, "kilometros" )
-elif r == "d":
-  d=float(input("¿cuantas millas terrestres tienes?: "))
-  print("el resultado es: ", d*1.609344, "millas terrestres")
-else:
-  print("estos datos no son compatibles")
+a=int(input("¿Que cara del dado escoges?: "))
+if a<=0 or a>=7:
+  print("Introduce unos valores correctos")
+elif a==1:
+  print("\nel numero que has escogido es el uno")
+  print("\ncara opuesta: ", 7-a)
+elif a==2:
+  print("\nel numero que has escogido es el dos")
+  print("\ncara opuesta: ", 7-a)
+elif a==3:
+  print("\nel numero que has escogido es el tres")
+  print("\ncara opuesta: ", 7-a)
+elif a==4:
+  print("\nel numero que has escogido es el cuatro")
+  print("\ncara opuesta: ", 7-a)
+elif a==5:
+  print("\nel numero que has escogido es el cinco")
+  print("\ncara opuesta: ", 7-a)
+elif a==6:
+  print("\nel numero que has escogido es el seis")
+  print("\ncara opuesta: ", 7-a)

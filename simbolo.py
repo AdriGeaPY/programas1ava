@@ -1,4 +1,6 @@
 print("digame un simbolo")
 simbolo=input()
-if simbolo == "1"or"2"or"3"or"4"or"5"or"6"or"7"or"8"or"9"or"0":
+if simbolo == "1"or simbolo =="2"or simbolo =="3"or simbolo =="4"or simbolo =="5"or simbolo =="6"or simbolo =="7"or simbolo =="8"or simbolo =="9"or simbolo =="0":
   print("esto es un digito")
+else:
+  print("esto es un simbolo")
