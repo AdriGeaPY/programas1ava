@@ -1,0 +1,1 @@
+a=int(input("Dime un limite de numeros en la piramides"))
