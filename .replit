@@ -1,2 +1,2 @@
 language = "python3"
-run = "python raizamedias.py"
+run = "python primer.py"
