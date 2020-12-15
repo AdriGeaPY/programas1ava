@@ -1,9 +1,5 @@
-def binarizar(decimal):
-    binario = ''
-    while decimal // 2 != 0:
-        binario = str(decimal % 2) + binario
-        decimal = decimal // 2
-    return str(decimal) + binario
-
-numero = int(input('Introduce el número a convertir a binario: '))
-print(binarizar(numero))
+adn=input("Dime cual es tu secuencia de ADN: ")
+print("numero de A: ",adn.count("a") or adn.count("A"))
+print("numero de C: ",adn.count("c") or adn.count("C"))
+print("numero de G: ",adn.count("g") or adn.count("G"))
+print("numero de T: ",adn.count("t") or adn.count("T"))
