@@ -11,4 +11,4 @@ while True:
 		elif i==len(var)//2
 	  	print("es un palindromo")
       p=p+3
-      print("capicua de tres numeros (+3)","\n tu puntuacion es: ",p)	
+      print("capicua de tres numeros (+3)","\n tu puntuacion es: ",p)	¡

@@ -1,0 +1,5 @@
+adn=input("Dime cual es tu secuencia de ADN: ")
+print("numero de A: ",adn.count("a") + adn.count("A"))
+print("numero de C: ",adn.count("c") + adn.count("C"))
+print("numero de G: ",adn.count("g") + adn.count("G"))
+print("numero de T: ",adn.count("t") + adn.count("T"))
