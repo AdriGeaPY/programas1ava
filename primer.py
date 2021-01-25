@@ -1,9 +1,8 @@
-a=input("Dime un caracter: ")
-b=input("Dime un caracter: ")
-c=input("Dime un caracter: ")
-d=input("Dime un caracter: ")
-e=input("Dime un caracter: ")
-l=[a,b,c,d,e]
-print(l)
-l.reverse()
-print(l)
+import random
+for i in range(5):
+  l1=[]
+  l1.append(random.randint(1,100))
+  for j in range(5):
+    l2=[]
+    l2.append(random.randint(1,100))
+print(i,j)
