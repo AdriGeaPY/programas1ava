@@ -1,0 +1,2 @@
+"AFG","Afghanistan","Asia","Southern and Central Asia",652090.00,1919,22720000,45.9,5976.00,\N,"Afganistan/Afqanestan","Islamic Emirate","Mohammad Omar",1,"AF"
+"AGO","Angola","Africa","Central Africa",1246700.00,1975,12878000,38.3,6648.00,7984.00,"Angola","Republic","José Eduardo dos Santos",56,"AO"

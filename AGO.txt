@@ -1,0 +1,16 @@
+
+El país seleccionado es: Angola
+Codigo del pais: AGO
+Continente: Africa
+Region: Central Africa
+Superficie: 1246700.0
+IndepYear: 1975.0
+Población: 12878000.0
+Esperanza de vida: 38.3
+PIB: 6648.0
+PIB antiguo: 7984.0
+Nombre Local: Angola
+Forma de gobierno: Republic
+Jefe de Estado: José Eduardo dos Santos
+Capital: 56.0
+Codigo2: AO

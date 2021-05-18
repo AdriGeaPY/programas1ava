@@ -1,0 +1,15 @@
+El país seleccionado es: Spain
+Codigo del pais: ESP
+Continente: Europe
+Region: Southern Europe
+Superficie: 505992.0
+IndepYear: 1492.0
+Población: 39441700.0
+Esperanza de vida: 78.8
+PIB: 553233.0
+PIB antiguo: 532031.0
+Nombre Local: España
+Forma de gobierno: Constitutional Monarchy
+Jefe de Estado: Juan Carlos I
+Capital: 653.0
+Codigo2: ES
