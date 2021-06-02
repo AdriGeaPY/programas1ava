@@ -1,0 +1,5 @@
+director: 3
+vendedor: 4
+empleados: 0
+analista: 2
+presidente: 1

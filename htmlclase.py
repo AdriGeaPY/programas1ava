@@ -38,7 +38,6 @@ def Existe(nombreCorredor,posicion):
 			return False
 	return True
 		
-		
 def lecturaArchivos(file):
 	fichero=open(file,"r")
 	for fila in fichero:	
