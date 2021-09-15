@@ -1,2 +1,2 @@
 language = "python3"
-run = "python exa4.py"
+run = "python segundo.py"
